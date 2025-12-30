@@ -1,0 +1,12 @@
+img{
+    width: 700px;
+    height: auto;
+    display: block;
+    margin: 50px;
+    margin-left: auto;
+
+}
+
+td{
+    border: 2px solid black;
+} 
