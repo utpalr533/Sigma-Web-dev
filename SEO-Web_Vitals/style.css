@@ -1,0 +1,25 @@
+body{
+    margin: 20px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+
+}
+p{
+    font-size: 18px;
+    line-height: 1.6;
+    color: #ffffff;
+}
+h2{
+    font-weight: bold;
+    color: #d3a3dd;
+    text-align: center;
+}
+
+hr{
+    margin: 20px 0;
+    border: none;
+    border-top: 2px solid #ee0a1d;
+    border-radius: 5px;
+}
