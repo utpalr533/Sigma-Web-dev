@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Input of HTML</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Forms and Input of HTML</h1>
+    <form action="post">
+        <div>
+            <label for="username">Enter you user Name -</label>
+            <input type="text" id="username" name="username" placeholder="Enter you Name" autofocus>
+        </div>
+        <div required>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <label for="checkbox">
+                <input type="checkbox" id="checkbox" name="checkbox" value="subscribe">
+                Subscribe to our newsletter
+            </label>
+        </div>
+        <div>
+            <label for="comment">Enter you comment here - </label><br>
+            <textarea name="comment" id="comment" rows="5" cols="40">
+            </textarea>
+        </div>
+        <div>
+            <select name="" id="">
+                <option value="">Apple</option>
+                <option value="">Banana</option>
+                <option value="">Mango</option>
+                <option value="">Grapes</option>
+                <option value="">Orange</option>
+                
+            </select>
+        </div>
+    </form>
+</body>
+
+</html>
