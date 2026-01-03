@@ -1,0 +1,25 @@
+body{
+    background-color: hsla(91, 32%, 75%, 0.685);
+    color:rgb(0, 0, 0);
+}    
+
+/* First p of div1 */
+#div1 p:first-child {
+  background-color: yellow;
+  color: red;
+}
+
+/* Second p of div1 */
+#div1 p:nth-child(2) {
+  background-color: orange;
+}
+
+/* Third p of div1 */
+#div1 p:nth-child(3) {
+  background-color: lightblue;
+}
+
+/* All p inside div2 */
+#div2 p {
+  background-color: pink;
+}
