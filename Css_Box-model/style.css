@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    background-color: rgb(235, 129, 9);
+}
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    padding: 20px;
+    border: 5px solid blue;
+    box-sizing: border-box;
+    color: rgb(238, 241, 38);
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    padding: 20px;
+    border: 5px solid rgb(241, 241, 241);
+    box-sizing: border-box;
+    color: red;
+}
+
+/* Margin collapse in CSS means that vertical margins (top & bottom) of elements combine into a single margin instead of adding up. The largest margin wins. */
